@@ -6,7 +6,7 @@
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
-- [Tag Scanner](#features)
+- [Tag Scanner](#tag-scanner)
 
 
 ## Description
