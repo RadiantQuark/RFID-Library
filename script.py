@@ -2,7 +2,7 @@ import serial
 import mysql.connector
 
 ser = serial.Serial('COM5', 9600)
-db_config = {'host':'localhost', 'user':'root', 'password':'', 'database':'hackathon'}
+db_config = {'host':'localhost', 'user':'root', 'password':'', 'database':'rfid-library'}
 try:
     conn = mysql.connector.connect()
     while True:
