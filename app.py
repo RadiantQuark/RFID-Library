@@ -3,7 +3,7 @@ import mysql.connector
 import serial
 
 app = Flask(__name__)
-app.secret_key = 'team066_atmiyauni'
+app.secret_key = 'your_secret_key_here'
 users = {'admin': 'pass'}
 
 #MySQL database credentials
@@ -11,7 +11,7 @@ db_config = {
     'host': 'localhost',
     'user': 'root',
     'password': '',
-    'database': 'hackathon',
+    'database': 'rfid_library',
 }
 
 # Function to execute SQL queries
