@@ -21,13 +21,14 @@ SET time_zone = "+00:00";
 -- Database: `rfid_library`
 --
 
+CREATE DATABASE `rfid_library`;
 -- --------------------------------------------------------
 
 --
 -- Table structure for table `books`
 --
 
-CREATE TABLE `books` (
+CREATE TABLE `rfid_library`.`books` (
   `UID` varchar(12) DEFAULT NULL,
   `BookID` varchar(12) DEFAULT NULL,
   `NAME` varchar(100) DEFAULT NULL,
