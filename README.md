@@ -90,4 +90,4 @@ Follow these steps to set up the project locally:
 |   SCL   |    PIN 13   |
 
 ### Program:
-The arduino program used to read UID of scanned tags can be found in the [*Read_UID.ino*](./Read_UID.ino) file. Note that changing the *baud rate* from the default value of *9600* can break the web-app. Necessary changes should be done to [*script.py*](./script.py) file to accomodate the changing of baud rate.
+The arduino program used to read UID of scanned tags can be found in the [*Read_UID.ino*](./Read_UID.ino) file. Note that changing the *baud rate* from the default value of *9600* can break the web-app. Necessary changes should be done to [*app.py*](./app.py) file to accomodate the changing of baud rate.
